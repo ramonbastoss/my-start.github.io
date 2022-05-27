@@ -135,6 +135,7 @@ a {
         flex-direction: column;
         max-width: 75%;
         max-height: 80%;
+        margin: 25px 0px;
     }
     .pricing-plan{
         border-bottom: 1px solid #b1d5ff;
