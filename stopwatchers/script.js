@@ -1,6 +1,7 @@
 const superDiv = document.querySelector('.contain-all-mains')
-
 const addButton = document.querySelector('#creator')
+
+
 addButton.addEventListener('click', () => {
     const newContainer = document.createElement('div')
     newContainer.classList.add('main')
@@ -51,4 +52,5 @@ addButton.addEventListener('click', () => {
         })
     }
 })
-
+let clickEvent = new Event('click');
+addButton.dispatchEvent(clickEvent)
