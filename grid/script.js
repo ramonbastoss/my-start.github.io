@@ -23,6 +23,7 @@ const firstMarked = document.querySelector(`.box:nth-of-type(${size})`)
 firstMarked.classList.add('marked')
 
 
+
 window.addEventListener('keydown', (e) => {
     const cyan = document.querySelector('.marked')
     // Left
