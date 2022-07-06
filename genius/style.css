@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    min-height: 100vh;
+}
+
+.headers {
+    height: 86px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(124, 240, 134);
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.wait {
+    color: rgb(221, 221, 17);
+}
+
+.go {
+    color: rgb(124, 240, 134);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: 48px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 580px;
+    padding: 2em;
+    background-color: black;
+    margin-top: 3em;
+
+    border-radius: 50%;
+}
+
+
+
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.yellow-red {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+}
+
+.welcome {
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    transform: translateY(50px);
+}
+
+.start {
+    font-size: 1.3rem;
+    padding: 0.1em 1em;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green.active {
+    box-shadow: 0 0 10px 10px rgb(90, 255, 90);
+}
+
+
+.yellow.active {
+    box-shadow: 0 0 10px 10px rgb(255, 255, 90);
+}
+
+.red.active {
+    box-shadow: 0 0 10px 10px rgb(255, 90, 90);
+}
+
+.blue.active {
+    box-shadow: 0 0 10px 10px rgb(90, 90, 255);
+}
